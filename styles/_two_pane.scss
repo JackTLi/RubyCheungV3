@@ -1,15 +1,16 @@
 $right-pane-width-max: 360px;
-$left-pane-width-max: 500px;
+$left-pane-width-max: 450px;
 .two-pane-layout {
   margin: auto;
   width: 100%;
-  max-width: $right-pane-width-max + $left-pane-width-max;
+  max-width: $right-pane-width-max + $left-pane-width-max + 120px;
   margin-top: 150px;
 
   .pane {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
+    margin: 30px;
   }
 
   .right-pane {
@@ -17,5 +18,8 @@ $left-pane-width-max: 500px;
   }
   .left-pane {
     max-width: $left-pane-width-max;
+    img {
+      max-width: 100%;
+    }
   }
 }

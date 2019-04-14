@@ -1,6 +1,25 @@
+$semibold: 300;
+$medium: 500;
+
 @font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova-regular.otf') format('otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/Proxima-Nova-Bold.otf') format('otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova-medium.otf') format('otf');
+    font-weight: $medium;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova-medium.otf') format('otf');
+    font-weight: $semibold;
 }
 
 $off-black: #020517;
@@ -16,6 +35,17 @@ body {
   background-repeat: no-repeat;
 }
 
+.body-large {
+  font-size: 22px;
+  font-weight: $medium;
+  color: $monkey-grey;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: $semibold;
+}
+
 h1 {
   font-size: 32px;
   font-weight: bold;
@@ -26,6 +56,17 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 0.33px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: $semibold;
+  line-height: 25px;
 }
 
 p {
