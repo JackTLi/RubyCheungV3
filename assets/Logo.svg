@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="61px" viewBox="0 0 120 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="32" font-weight="600" letter-spacing="0.4799998">
+        <g id="Resume" transform="translate(-41.000000, -47.000000)" fill="#FF7A5B">
+            <g id="Navigation" transform="translate(40.000000, 40.000000)">
+                <g id="Group-5">
+                    <text id="Ruby">
+                        <tspan x="0" y="30">Ruby</tspan>
+                    </text>
+                    <text id="Cheung">
+                        <tspan x="0" y="61">Cheung</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

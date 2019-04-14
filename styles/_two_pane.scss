@@ -1,0 +1,21 @@
+$right-pane-width-max: 360px;
+$left-pane-width-max: 500px;
+.two-pane-layout {
+  margin: auto;
+  width: 100%;
+  max-width: $right-pane-width-max + $left-pane-width-max;
+  margin-top: 150px;
+
+  .pane {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .right-pane {
+    max-width: $right-pane-width-max;
+  }
+  .left-pane {
+    max-width: $left-pane-width-max;
+  }
+}

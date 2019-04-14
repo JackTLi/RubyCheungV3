@@ -1,8 +1,16 @@
 doctype html
 html(lang='en')
-  include includes/head.pug
+  head
+    title Ruby Cheung
+    include includes/includes.pug
   body
-    h1 Hi👋 My name is <br /> Ruby Cheung.
-    div.container
-      p As a product designer I love creating delightful experiences✨ informed by data📊.
-      p I currently work at #[a(href="https://smile.io", target='_blank').view-website Smile.io], and was previously at #[a(href="https://flipp.com", target='_blank').view-website Flipp].
+    include header.pug
+    div.container.two-pane-layout
+      div.pane.left-pane
+        img(src='assets/temp.png')
+      div.pane.right-pane
+        h1 Hi👋 My name is <br /> Ruby Cheung.
+        p As a product designer I love creating delightful experiences✨ informed by data📊.
+        p.
+          I currently work at #[a(href="https://smile.io", target='_blank').view-website Smile.io],
+          and was previously at #[a(href="https://flipp.com", target='_blank').view-website Flipp].

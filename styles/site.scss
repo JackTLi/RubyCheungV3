@@ -3,21 +3,39 @@
   src: url(sansation_light.woff);
 }
 
+$off-black: #020517;
+$monkey-grey: #33374F;
+
 body {
+  width: 100%;
+  max-width: 1500px;
   font-size: 16px;
+  margin: auto;
   font-family: 'Proxima Nova', Georgia, sans-serif;
+  background-image: url('../assets/background.svg');
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 32px;
   font-weight: bold;
+  line-height: 38px;
 }
 
 h2 {
   font-size: 22px;
   font-weight: bold;
+  letter-spacing: 0.33px;
 }
 
-h3 {
-  font-size: 16px;
+p {
+  line-height: 25px;
 }
+
+a {
+  text-decoration: none;
+}
+
+@import 'single_pane';
+@import 'two_pane';
+@import 'header';
