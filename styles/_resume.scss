@@ -21,6 +21,18 @@ $resume-section-margin: 10px;
     }
   }
 
+  @media screen and (max-width: $break-mobile) {
+    .left-section {
+      width: 100% !important;
+    }
+    .right-section {
+      width: 100% !important;
+    }
+    .section {
+      margin: 0 !important;
+    }
+  }
+
   .box {
     padding: 25px;
     margin: 20px 0;
@@ -57,3 +69,4 @@ $resume-section-margin: 10px;
     }
   }
 }
+

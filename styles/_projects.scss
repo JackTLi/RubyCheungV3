@@ -14,11 +14,11 @@ $projects-menu-width: 400px;
   cursor: pointer;
 }
 #projects-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -$projects-menu-width;
   width: $projects-menu-width - 20px;
-  height: 100vh;
+  height: 100%;
   background-color: #F4F6F8;
 	-webkit-transition: 0.3s ease-out;
 	-moz-transition: 0.3s ease-out;

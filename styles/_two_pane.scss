@@ -5,13 +5,16 @@ $left-pane-width-max: 450px;
   width: 100%;
   max-width: $right-pane-width-max + $left-pane-width-max + 120px;
   margin-top: 150px;
+  text-align: center;
 
   .pane {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
     margin: 30px;
+    text-align: left;
   }
+
 
   .right-pane {
     max-width: $right-pane-width-max;
@@ -20,6 +23,14 @@ $left-pane-width-max: 450px;
     max-width: $left-pane-width-max;
     img {
       max-width: 100%;
+    }
+  }
+  @media screen and (max-width: $break-mobile) {
+    .left-pane {
+      max-width: 250px;
+      img {
+        max-width: 250px;
+      }
     }
   }
 }

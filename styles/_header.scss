@@ -5,6 +5,25 @@
   .logo {
     display: inline-block;
     vertical-align: top;
+    margin-left: 25px;
+    img {
+      height: 60px;
+    }
+  }
+  @media screen and (max-width: $break-mobile) {
+    .logo {
+      display: block;
+    }
+    .pages {
+      float: none !important;
+    }
+    ul {
+      padding-inline-start: 0;
+      margin: 20px 0 !important;
+    }
+    .nav-link {
+      padding: 5px 5px !important;
+    }
   }
 
   .pages {

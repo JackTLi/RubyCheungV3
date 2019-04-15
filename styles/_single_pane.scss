@@ -1,6 +1,11 @@
 
 .single-pane {
   margin: 0px 360px;
+
+  @media screen and (max-width: $break-mobile) {
+    margin: 0px 25px;
+  }
+
   .title {
     h1, h2, h3, h4, .category, .body-medium {
       text-align: center;
