@@ -1,0 +1,59 @@
+$resume-section-margin: 10px;
+.resume-container {
+  .section {
+    display: inline-block;
+    margin: $resume-section-margin;
+    vertical-align: top;
+  }
+
+  .left-section {
+    width: calc(60% - 20px);
+  }
+  .right-section {
+    width: calc(40% - 20px);
+    float: right;
+
+    .subtitle {
+      font-size: 14px;
+    }
+    .title {
+      margin-bottom: 20px;
+    }
+  }
+
+  .box {
+    padding: 25px;
+    margin: 20px 0;
+  }
+
+  .company {
+    background-color: white;
+    box-shadow: 0 7px 24px rgba(0,0,0,0.04);
+    border-radius: 4px;
+  }
+
+  .position {
+    div {
+      display: inline-block;
+    }
+
+    .subtitle {
+      font-size: 12px;
+    }
+
+    .timeline {
+      float: right;
+    }
+  }
+
+  ul {
+    padding-inline-start: 20px;
+    li {
+      margin: 10px 0px;
+
+      ul li {
+        margin: 0;
+      }
+    }
+  }
+}

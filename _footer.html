@@ -1,0 +1,11 @@
+<script>var pages = [
+  'resume',
+  'projects',
+  'contact'
+];
+
+pages.forEach(function (page) {
+  if (location.pathname.includes(page)) {
+    $('#' + page).addClass('current')
+  }
+});</script>

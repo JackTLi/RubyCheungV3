@@ -1,0 +1,14 @@
+mixin project(link, subtitle, heading)
+  a(href=link)
+    div.project
+      div.image
+      div.label
+        div.subtitle= subtitle
+        div.small-heading= heading
+
+div#projects-menu
+  div.close-projects-menu
+    a(href="#").close-button
+      img(src='assets/close.svg')
+  div.project-container
+    +project('projects_1.html', 'SMILE.IO', 'How Flipp got to #1 on the App Store')

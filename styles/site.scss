@@ -1,5 +1,5 @@
-$semibold: 300;
-$medium: 500;
+$semibold: 600;
+$medium: 400;
 
 @font-face {
     font-family: 'Proxima Nova';
@@ -18,12 +18,13 @@ $medium: 500;
 }
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('fonts/proximanova-medium.otf') format('otf');
+    src: url('fonts/proximanova-semibold.otf') format('otf');
     font-weight: $semibold;
 }
 
 $off-black: #020517;
 $monkey-grey: #33374F;
+$light-grey: #8388A8;
 
 body {
   width: 100%;
@@ -46,6 +47,13 @@ body {
   font-weight: $semibold;
 }
 
+.body-medium {
+  font-weight: $medium;
+  color: $light-grey;
+  letter-spacing: 1.3px;
+  line-height: 25px;
+}
+
 h1 {
   font-size: 32px;
   font-weight: bold;
@@ -58,15 +66,22 @@ h2 {
   letter-spacing: 0.33px;
 }
 
-h3 {
-  font-size: 32px;
+h3, .small-heading {
+  font-size: 16px;
   font-weight: bold;
 }
 
-h4 {
+h4, .subtitle {
   font-size: 16px;
   font-weight: $semibold;
   line-height: 25px;
+}
+
+.subtitle {
+  font-size: 10px;
+  font-weight: $semibold;
+  line-height: 25px;
+  color: #454F5B;
 }
 
 p {
@@ -80,3 +95,5 @@ a {
 @import 'single_pane';
 @import 'two_pane';
 @import 'header';
+@import 'projects';
+@import 'resume';

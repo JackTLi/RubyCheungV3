@@ -4,8 +4,80 @@ html(lang='en')
     title Ruby Cheung - Resume
     include includes/includes.pug
   body
-    include header.pug
+    include _header.pug
     div.container.single-pane
-      h1 Resume
-      div.download.category
-        a(href='assets/resume.pdf' target='_blank') Download
+      div.title
+        h1 Resume
+        div.download.category
+          a(href='assets/resume.pdf' target='_blank') Download
+      div.body
+        div.resume-container
+          div.section.left-section
+            div.company.box
+              div.small-heading Smile.io
+              div.position
+                div.subtitle PRODUCT DESIGNER
+                div.subtitle.timeline January 2017 - Present
+              ul
+                li Designed products: Smile Admin (Merchants), Smile UI (Customers), and Smile Internal (Employees)
+                li As our team grew, I created processes and documentation that allowed our team to become more efficient:
+                li Created processes and documentation that allowed our team to become more efficient:
+                  ul
+                    li Onboarding
+                    li UI frameworks for each product
+                    li Structured design handoffs
+            div.company.box
+              div.small-heading Flipp
+              div.position
+                div.subtitle JR WEB & GRAPHICS DESIGNER
+                div.subtitle.timeline May 2016 - January 2017
+              ul
+                li Solely responsible for all marketing consumer and retailer content.
+                li As our team grew, I created processes and documentation that allowed our team to become more efficient:
+                li Designed, developed, and manage Flipp’s marketing blog (finds.flipp.com) using Ghost.
+                li Created multiple retailer whitepapers and landing pages integrated with Pardot.
+                li Currently creating a landing page that outlines Flipp’s history, used internally for our new and current employees.
+            div.company.box
+              div.small-heading Social Venture Partners
+              div.position
+                div.subtitle UX DESIGNER & WEBSITE MANAGER
+                div.subtitle.timeline Sept 2015 - June 2016
+              ul
+                li Created public-facing infographics, printed content, and graphics.
+                li Managed website content.
+              div.position
+                div.subtitle UX DESIGNER & WEBSITE MANAGER
+                div.subtitle.timeline June 2015 - Sept 2016
+              ul
+                li Solely responsible for all public-facing content. Created over 20 printed and graphic products distributed to prospective and current partners.
+                li Created custom design content for social media accounts (Twitter, Facebook, and Instagram) and website (www.svpwr.org).
+                li Created structure for social media accounts by introducing theme days.
+
+
+          div.section.right-section
+            div.box
+              div.title.subtitle 🛠 TOOLS
+            div.box
+              div.title.subtitle  🎓 EDUCATION
+              div.small-heading University of Waterloo
+              div.subtitle Global Business & Digital Arts
+              div.subtitle Sept 2012 - April 2016
+            div.box
+              div.title.subtitle 🏗 PROJECTS
+              div.small-heading Shopify Hack Days
+              div.position
+                div.subtitle PRODUCT DESIGNER
+                div.subtitle.timeline March 2016
+              ul
+                li Worked in a team of 6 to create an intern page within Shopify Careers during Hack Days. Placed in Top 20.
+              br
+              div.small-heading Living Together
+              div.position
+                div.subtitle PRODUCT DESIGNER
+                div.subtitle.timeline February 2016
+              p http://livingtogether.io
+              ul
+                li Worked in a team of 6 to create an intern page within Shopify Careers during Hack Days. Placed in Top 20.
+
+
+include _footer.pug

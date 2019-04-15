@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head><title>Ruby Cheung</title><link rel="stylesheet" type="text/css" href="styles/site.css"><script type="text/javascript" src="js/jquery.min.js"></script><script type="text/javascript" src="js/analytics.js"></script><script type="text/javascript" src="js/projects.js"></script></head><body><div class="header"><a class="logo" href="index.html"><img src="assets/logo.svg"></a><ul class="pages"><li><a class="nav-link" href="resume.html" id="resume">Resume</a></li><li><a class="nav-link" href="#" id="projects">Projects</a></li><li><a class="nav-link" href="contact.html" id="contact">Contact</a></li></ul><div id="projects-menu"><div class="close-projects-menu"><a class="close-button" href="#"><img src="assets/close.svg"></a></div><div class="project-container"><a href="projects_1.html"><div class="project"><div class="image"></div><div class="label"><div class="subtitle">SMILE.IO</div><div class="small-heading">How Flipp got to #1 on the App Store</div></div></div></a></div></div></div><div class="container two-pane-layout"><div class="pane left-pane"><img src="assets/portrait.png"></div><div class="pane right-pane body-large"><h1>Have any questions or want to have a quick chat? 💬</h1><p>Contact me at rubykcheung@gmail.com or on <a href="">linkedin</a></p><p>Check Sully's portfolio on instagram <a href="">@sully_thecorgi</a></p></div></div></body></html><script>var pages = [
+  'resume',
+  'projects',
+  'contact'
+];
+
+pages.forEach(function (page) {
+  if (location.pathname.includes(page)) {
+    $('#' + page).addClass('current')
+  }
+});</script>

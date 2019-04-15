@@ -1,5 +1,5 @@
 .header {
-  margin-top: 40px;
+  padding-top: 40px;
   vertical-align: top;
 
   .logo {
@@ -12,12 +12,25 @@
     float: right;
   }
 
+  .nav-link {
+    padding: 5px 10px;
+
+    &:hover {
+      background-color: #F4F6F8;
+      border-radius: 4px;
+    }
+
+    &.current {
+      font-weight: bold;
+    }
+  }
+
   ul {
     list-style-type: none;
     margin-top: 0px;
 
     li {
-      margin: 0px 30px;
+      margin: 0px 20px;
       display: inline;
       a {
         color: $monkey-grey;

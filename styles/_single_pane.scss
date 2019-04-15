@@ -1,10 +1,17 @@
 
 .single-pane {
-  h1, h2, h3, h4, .category {
-    text-align: center;
+  margin: 0px 360px;
+  .title {
+    h1, h2, h3, h4, .category, .body-medium {
+      text-align: center;
+    }
   }
 
   .download {
     text-decoration: underline;
+  }
+
+  .body {
+    margin: auto;
   }
 }
