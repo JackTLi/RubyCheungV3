@@ -112,32 +112,32 @@ $projects-menu-width: 400px;
 
 
 @media screen and (max-width: $break-small-mobile) {
-.close-projects-menu {
-  padding: 15px 0;
-  z-index: 2;
-  border-bottom: 1px solid #D8D8D8;
-  text-align: center;
-  margin-top: 7px;
-  margin-left: 32px;
-  margin-right: 32px;
-  padding-bottom: 5px;
+  .close-projects-menu {
+    padding: 15px 0;
+    z-index: 2;
+    border-bottom: 1px solid #D8D8D8;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-bottom: 5px;
 
-  .close-button {
-    top: 33px;
-    float: left;
+    .close-button {
+      top: 33px;
+      float: left;
 
-    .close {
-      display: none !important;
+      .close {
+        display: none !important;
+      }
+      .prev {
+        display: inline-block !important;
+      }
     }
-    .prev {
-      display: inline-block !important;
+
+    .title {
+      display: inline-block;
     }
   }
-
-  .title {
-    display: inline-block;
-  }
-}
   #projects-menu {
     width: 100%;
   }
