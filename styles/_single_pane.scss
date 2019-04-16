@@ -3,6 +3,9 @@
   margin: 0px 360px;
   margin-bottom: 100px;
 
+  @media screen and (max-width: $default-max-width) {
+    margin: 0px 200px;
+  }
   @media screen and (max-width: $break-mobile) {
     margin: 0px 25px;
   }

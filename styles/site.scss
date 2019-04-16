@@ -26,7 +26,9 @@ $off-black: #020517;
 $monkey-grey: #33374F;
 $light-grey: #8388A8;
 
-$break-mobile: 1500px;
+$default-max-width: 1500px;
+$break-mobile: 1200px;
+$break-small-mobile: 1040px;
 
 body {
   width: 100%;

@@ -1,7 +1,8 @@
 mixin project(link, img, subtitle, heading)
   a(href=link)
     div.project
-      img(src=img).image
+      div.image
+        img(src=img)
       div.label
         div.subtitle= subtitle
         div.small-heading= heading
@@ -9,8 +10,10 @@ mixin project(link, img, subtitle, heading)
 div#projects-menu
   div.close-projects-menu
     a(href="#").close-button
-      img(src='assets/close.svg')
+      img(src='assets/close.svg').close
+      img(src='assets/prev.svg').prev
+    h2.title Projects
   div.project-background
     div.project-container
-      +project('projects_2.html','assets/2_nav.png', 'SMILE.IO', 'Introducing a design system to Smile.io')
-      +project('projects_1.html','assets/1_nav.png', 'FLIPP', 'How Flipp got to #1 on the App Store')
+      +project('projects_2.html','assets/2_header.png', 'SMILE.IO', 'Introducing a design system to Smile.io')
+      +project('projects_1.html','assets/1_header.png', 'FLIPP', 'How Flipp ranked #1 on the App Store')

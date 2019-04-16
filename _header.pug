@@ -1,12 +1,21 @@
-div.header
-  a(href='index.html').logo
-    img(src='assets/logo.svg')
-  ul.pages#pages
-    li
-      a(href='resume.html').nav-link#resume Resume
-    li
-      a(href='#').nav-link#projects Projects
-    li
-      a(href='contact.html').nav-link#contact Contact
+div.header-spacer
+.header#header
+  .header-container
+    a(href='index.html').logo
+      img(src='assets/logo.svg')
+    div#hamburger
+      span
+      span
+      span
+    ul.pages#pages
+      li.logo
+        a(href='index.html')
+          img(src='assets/logo.svg')
+      li
+        a(href='resume.html').nav-link#resume Resume
+      li
+        a(href='#').nav-link#projects Projects
+      li
+        a(href='contact.html').nav-link#contact Contact
 
-  include _projects.pug
+    include _projects.pug
