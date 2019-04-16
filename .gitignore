@@ -1,4 +1,4 @@
 node_modules
 .sass-cache
 package-lock.json
-.DS-Store
+.DS_Store

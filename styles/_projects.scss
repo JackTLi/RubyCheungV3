@@ -1,25 +1,15 @@
 $projects-menu-width: 400px;
 
-@keyframes projects-slide-out {
-    from {right: -$projects-menu-width;}
-    to {right: 0;}
-}
-
-@keyframes projects-slide-in {
-    from {right: 0;}
-    to {right: $projects-menu-width}
-}
-
 #projects {
   cursor: pointer;
 }
 #projects-menu {
   position: fixed;
   top: 0;
-  right: -$projects-menu-width;
-  width: $projects-menu-width - 20px;
+  right: -$projects-menu-width - 20px;
+  width: $projects-menu-width + 20px;
   height: 100%;
-  background-color: #F4F6F8;
+  overflow-y: scroll;
 	-webkit-transition: 0.3s ease-out;
 	-moz-transition: 0.3s ease-out;
 	-o-transition: 0.3s ease-out;
@@ -35,8 +25,9 @@ $projects-menu-width: 400px;
 
   .close-button {
     position: absolute;
-    left: -19px;
+    left: 0px;
     top: 30px;
+    z-index: 2;
 
     img {
       width: 20px;
@@ -52,7 +43,22 @@ $projects-menu-width: 400px;
         background-color: #B4C9DF !important;
       }
     }
+
+    &:active {
+      img {
+        background-color: #6D8FB1 !important;
+      }
+    }
   }
+}
+
+.project-background {
+  background-color: #F4F6F8;
+  width: $projects-menu-width;
+  position: absolute;
+  min-height: 100%;
+  right: 0;
+  top: 0;
 }
 
 .project-container {

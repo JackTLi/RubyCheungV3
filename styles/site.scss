@@ -36,7 +36,10 @@ body {
   font-family: 'Proxima Nova', sans-serif;
   background-image: url('../assets/background.svg');
   background-repeat: no-repeat;
-  overflow-x:hidden;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 .body-large {

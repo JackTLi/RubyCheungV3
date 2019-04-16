@@ -1,11 +1,15 @@
-$right-pane-width-max: 360px;
-$left-pane-width-max: 450px;
+$right-pane-width-max: 400px;
+$left-pane-width-max: 500px;
 .two-pane-layout {
   margin: auto;
   width: 100%;
   max-width: $right-pane-width-max + $left-pane-width-max + 120px;
   margin-top: 150px;
   text-align: center;
+
+  @media screen and (max-width: 729px) {
+    margin-top: 50px;
+  }
 
   .pane {
     display: inline-block;
