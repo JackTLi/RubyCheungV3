@@ -1,6 +1,7 @@
 
 .single-pane {
   margin: 0px 360px;
+  margin-bottom: 100px;
 
   @media screen and (max-width: $break-mobile) {
     margin: 0px 25px;
@@ -20,6 +21,11 @@
     width: 100%;
     margin: 35px 0;
     box-shadow: 0 2px 24px rgba(0,0,0,0.1);
+  }
+
+  .next-project {
+    text-align: right;
+    margin-top: 25px;
   }
 
   .body {

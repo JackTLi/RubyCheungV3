@@ -29,6 +29,18 @@
   .pages {
     vertical-align: top;
     float: right;
+    padding-right: 0;
+
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+    @media screen and (max-width: 2300px) {
+      &.open {
+        padding-right: 400px;
+      }
+    }
   }
 
   .nav-link {

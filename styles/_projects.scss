@@ -10,10 +10,10 @@ $projects-menu-width: 400px;
   width: $projects-menu-width + 20px;
   height: 100%;
   overflow-y: scroll;
-	-webkit-transition: 0.3s ease-out;
-	-moz-transition: 0.3s ease-out;
-	-o-transition: 0.3s ease-out;
-	transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 
   &.open {
     right: 0 !important;

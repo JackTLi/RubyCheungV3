@@ -37,6 +37,9 @@ body {
   background-image: url('../assets/background.svg');
   background-repeat: no-repeat;
 
+  -webkit-font-smoothing : antialiased;
+  color: $monkey-grey;
+
   &.no-scroll {
     overflow: hidden;
   }
@@ -96,6 +99,11 @@ p {
 
 a {
   text-decoration: none;
+  color: $monkey-grey;
+}
+
+.view-website {
+  color: -webkit-link;
 }
 
 @import 'single_pane';
