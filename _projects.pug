@@ -1,7 +1,7 @@
-mixin project(link, subtitle, heading)
+mixin project(link, img, subtitle, heading)
   a(href=link)
     div.project
-      div.image
+      img(src=img).image
       div.label
         div.subtitle= subtitle
         div.small-heading= heading
@@ -12,5 +12,5 @@ div#projects-menu
       img(src='assets/close.svg')
   div.project-background
     div.project-container
-      +project('projects_1.html', 'FLIPP', 'How Flipp got to #1 on the App Store')
-      +project('projects_2.html', 'SMILE.IO', 'Introducing a design system to Smile.io')
+      +project('projects_1.html','assets/1_nav.png', 'FLIPP', 'How Flipp got to #1 on the App Store')
+      +project('projects_2.html','assets/2_nav.png', 'SMILE.IO', 'Introducing a design system to Smile.io')

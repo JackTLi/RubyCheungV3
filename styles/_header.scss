@@ -10,7 +10,7 @@
       height: 60px;
     }
   }
-  @media screen and (max-width: $break-mobile) {
+  @media screen and (max-width: 800px) {
     .logo {
       display: block;
     }
