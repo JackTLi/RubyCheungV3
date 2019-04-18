@@ -119,6 +119,10 @@ h3 {
   color: $monkey-light-grey;
 }
 
+.dark {
+  color: $monkey-grey;
+}
+
 .caption {
   font-size: 12px;
   line-height: 20px;
@@ -130,6 +134,10 @@ a {
 
   &:hover {
     .clickable {
+      color: $monkey-grey;
+      fill: $monkey-grey;
+    }
+    &.clickable {
       color: $monkey-grey;
       fill: $monkey-grey;
     }

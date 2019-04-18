@@ -51,6 +51,15 @@ $resume-section-margin: 10px;
       float: right;
       letter-spacing: normal;
     }
+
+    @media screen and (max-width: $break-mobile) {
+      div {
+        display: block;
+      }
+      .timeline {
+        float: none;
+      }
+    }
   }
 
   ul {

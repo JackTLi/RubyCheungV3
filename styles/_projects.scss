@@ -5,7 +5,7 @@ $projects-menu-width: 400px;
 }
 #projects-menu {
   position: fixed;
-  top: 86px;
+  top: 88px;
   right: -100%;
   width: $projects-menu-width;
   height: 100%;
@@ -23,8 +23,9 @@ $projects-menu-width: 400px;
 }
 
 .close-button-container {
-  float: right;
   margin-right: 40px;
+  margin-top: 40px;
+  text-align: end;
 
   .close-text, .close-x {
     display: inline-block;
@@ -96,14 +97,11 @@ $projects-menu-width: 400px;
 @media screen and (max-width: $break-small-mobile) {
   #projects-menu {
     width: 100%;
-  }
-
-  .project-background {
-    width: 100%;
+    top: 0;
+    z-index: 3;
   }
 
   .project-container {
-    padding-top: 25px;
     width: calc(100% - 64px);
     max-width: 700px
   }

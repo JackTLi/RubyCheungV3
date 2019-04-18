@@ -7,7 +7,7 @@ $left-pane-width-max: 500px;
   margin-top: 150px;
   text-align: center;
 
-  @media screen and (max-width: 729px) {
+  @media screen and (max-width: 1119px) {
     margin-top: 50px;
   }
 
@@ -43,10 +43,6 @@ $left-pane-width-max: 500px;
       max-width: 250px;
     }
   }
-}
-
-.button-container {
-
 }
 
 .welcome-page-background {
