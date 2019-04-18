@@ -13,7 +13,6 @@ $('document').ready(function(){
 
   $('#projects').click(function(e) {
     $('#projects-menu').toggleClass('open');
-    $('#pages').toggleClass('open');
     $('body').toggleClass('no-scroll');
     e.preventDefault()
   });

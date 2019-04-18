@@ -1,4 +1,4 @@
-$right-pane-width-max: 400px;
+$right-pane-width-max: 500px;
 $left-pane-width-max: 500px;
 .two-pane-layout {
   margin: auto;
@@ -17,6 +17,15 @@ $left-pane-width-max: 500px;
     vertical-align: middle;
     margin: 30px;
     text-align: left;
+
+    img {
+      max-width: 100%;
+    }
+
+    button {
+
+    }
+
   }
 
   .right-pane {
@@ -24,16 +33,32 @@ $left-pane-width-max: 500px;
   }
   .left-pane {
     max-width: $left-pane-width-max;
-    img {
-      max-width: 100%;
-    }
   }
-  @media screen and (max-width: $break-mobile) {
-    .left-pane {
+}
+
+@media screen and (max-width: $break-mobile) {
+  .pane {
+    max-width: 250px;
+    img {
       max-width: 250px;
-      img {
-        max-width: 250px;
-      }
     }
   }
 }
+
+.button-container {
+
+}
+
+.welcome-page-background {
+  background-image: url('../assets/background.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  position: fixed;
+  width: 70%;
+  height: 70%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+

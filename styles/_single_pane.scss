@@ -11,8 +11,33 @@
   }
 
   .title {
-    h1, h2, h3, h4, .category, .body-medium {
+    margin: 40px 0;
+
+    .text-title {
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .caption {
+      margin: 20px 0;
+    }
+
+    &.centered {
       text-align: center;
+    }
+  }
+
+  .body {
+    margin: auto;
+
+    h1, h2, h3, p {
+      margin: 30px 0;
+      &.unmargined {
+        margin: 0;
+      }
+
+      &.regular-margined {
+        margin: inherit;
+      }
     }
   }
 
@@ -22,16 +47,12 @@
 
   .banner {
     width: 100%;
-    margin: 35px 0;
+    margin-top: 40px;
     box-shadow: 0 2px 24px rgba(0,0,0,0.1);
   }
 
   .next-project {
     text-align: right;
     margin-top: 25px;
-  }
-
-  .body {
-    margin: auto;
   }
 }

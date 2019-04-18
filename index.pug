@@ -3,16 +3,24 @@ html(lang='en')
   head
     title Ruby Cheung
     include includes/includes.pug
-  body
+  body.welcome
+    div.welcome-page-background
     include _header.pug
     div.container.two-pane-layout
       div.pane.left-pane
+        div.text-title.bold Hi👋 My name is <br /> Ruby Cheung.
+        p.light As a product designer I love creating delightful experiences ✨ informed by data 📊.
+        p.light.
+          I currently work at #[a.light.clickable(href="https://smile.io", target='_blank') Smile.io],
+          and previously at #[a.light.clickable(href="https://flipp.com", target='_blank') Flipp].
+        p.large-top-padding.bold Have any questions or want to have a quick chat? 💬
+        div.button-container
+          a(href="contact.html")
+            .button.light.semibold Let's chat
+          a(href="resume.html" style="margin-left: 20px;").light
+            span.clickable(style='margin-right: 10px;') View my resume
+            include includes/right_arrow.pug
+      div.pane.right-pane
         img(src='assets/portrait.png')
-      div.pane.right-pane.body-large
-        h1 Hi👋 My name is <br /> Ruby Cheung.
-        p As a product designer I love creating delightful experiences✨ informed by data📊.
-        p.
-          I currently work at #[a(href="https://smile.io", target='_blank').view-website Smile.io],
-          and was previously at #[a(href="https://flipp.com", target='_blank').view-website Flipp].
 
 include _footer.pug

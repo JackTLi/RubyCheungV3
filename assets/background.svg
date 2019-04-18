@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="875px" height="902px" viewBox="0 0 875 902" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Rectangle</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Background/Shape" fill="#EDF5F5">
-            <path d="M0,0.442169586 L874.339416,0.442169586 C864.066735,8.79820136 856.103273,15.0638374 850.449029,19.2390777 C727.577964,109.970257 555.8611,91.6690089 409.714806,262.224515 C350.802576,330.976208 324.382491,399.617782 308.704834,465.583383 C285.490202,563.261698 285.829517,655.072649 239.10801,732.68568 C186.92522,819.370906 107.22255,875.809013 0,902 L0,0.442169586 Z" id="Rectangle"></path>
-        </g>
-    </g>
+<svg width="918" height="940" viewBox="0 0 918 940" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M918 947H0C10.7856 938.223 19.1468 931.641 25.0834 927.256C154.09 831.951 334.382 851.175 487.826 672.023C549.68 599.806 577.419 527.704 593.88 458.414C618.254 355.812 617.897 259.374 666.952 177.849C721.741 86.794 805.423 27.5111 918 0V947Z" fill="#EDF5F5"/>
 </svg>

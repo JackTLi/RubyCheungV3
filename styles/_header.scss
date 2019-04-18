@@ -1,6 +1,13 @@
 .header-spacer {
   height: 80px;
 }
+
+.welcome {
+  .header {
+    background: none;
+    box-shadow: none;
+  }
+}
 .header {
   position:fixed;
   top:0;
@@ -8,6 +15,7 @@
   vertical-align: top;
   width: 100%;
   padding-bottom: 10px;
+  background-color: white;
 
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
@@ -15,7 +23,6 @@
   transition: 0.3s ease-in-out;
 
   &.background {
-    background-color: white;
     box-shadow: 0 2px 24px rgba(0,0,0,0.1);
   }
 
@@ -65,11 +72,11 @@
 
 
   .nav-link {
-    padding: 5px 10px;
+    padding: 7px 20px;
 
     &:hover {
-      background-color: #F4F6F8;
-      border-radius: 4px;
+      background-color: rgba(14, 135, 186, 0.1);
+      border-radius: 100px;
     }
 
     &:active, &.current {
@@ -82,7 +89,7 @@
     margin-top: 0px;
 
     li {
-      margin: 0px 20px;
+      margin: 0px 10px;
       display: inline;
       a {
         color: $monkey-grey;

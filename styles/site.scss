@@ -24,6 +24,7 @@ $medium: 400;
 
 $off-black: #020517;
 $monkey-grey: #33374F;
+$monkey-light-grey: #6C708C;
 $light-grey: #8388A8;
 
 $default-max-width: 1500px;
@@ -36,21 +37,18 @@ body {
   font-size: 16px;
   margin: auto;
   font-family: 'Proxima Nova', sans-serif;
-  background-image: url('../assets/background.svg');
-  background-repeat: no-repeat;
 
   -webkit-font-smoothing : antialiased;
   color: $monkey-grey;
+  background-color: #FAFAFA;
 
   &.no-scroll {
     overflow: hidden;
   }
-}
 
-.body-large {
-  font-size: 22px;
-  font-weight: $medium;
-  color: $monkey-grey;
+  &.welcome {
+    background-color: white;
+  }
 }
 
 .category {
@@ -58,54 +56,93 @@ body {
   font-weight: $semibold;
 }
 
-.body-medium {
-  font-weight: $medium;
-  color: $light-grey;
-  letter-spacing: 1.3px;
-  line-height: 25px;
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: $monkey-grey;
+  font-family: 'Proxima Nova', sans-serif;
+  padding: 14px 30px;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #E7F3F8;
+    color: $monkey-grey;
+  }
+
+  &:active {
+    background-color: #CADFE8;
+  }
+}
+
+.text-title {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 22px;
+  line-height: 31px;
   font-weight: bold;
-  line-height: 38px;
 }
 
 h2 {
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 0.33px;
+  font-size: 18px;
 }
 
-h3, .small-heading {
+h3 {
   font-size: 16px;
+  line-height: 27px;
+
+}
+
+.body-large {
+  font-size: 18px;
+  color: $monkey-grey;
+  line-height: 24px;
+}
+
+.bold {
   font-weight: bold;
 }
-
-h4, .subtitle {
-  font-size: 16px;
+.semibold {
   font-weight: $semibold;
-  line-height: 25px;
+}
+.no-bold {
+  font-weight: normal;
 }
 
-.subtitle {
-  font-size: 10px;
-  font-weight: $semibold;
-  line-height: 25px;
-  color: #454F5B;
+.light {
+  color: $monkey-light-grey;
 }
 
-p {
-  line-height: 25px;
+.caption {
+  font-size: 12px;
+  line-height: 20px;
 }
 
 a {
   text-decoration: none;
   color: $monkey-grey;
+
+  &:hover {
+    .clickable {
+      color: $monkey-grey;
+      fill: $monkey-grey;
+    }
+  }
 }
 
-.view-website {
-  color: -webkit-link;
+.clickable {
+  color: $monkey-light-grey;
+  fill: $monkey-light-grey;
+}
+
+p.large-top-padding {
+  padding-top: 15px;
 }
 
 @import 'single_pane';

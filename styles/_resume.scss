@@ -13,9 +13,6 @@ $resume-section-margin: 10px;
     width: calc(40% - 20px);
     float: right;
 
-    .subtitle {
-      font-size: 14px;
-    }
     .title {
       margin-bottom: 20px;
       letter-spacing: 1.09px;
@@ -48,11 +45,6 @@ $resume-section-margin: 10px;
   .position {
     div {
       display: inline-block;
-    }
-
-    .subtitle {
-      font-size: 12px;
-      letter-spacing: 0.6px;
     }
 
     .timeline {
