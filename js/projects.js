@@ -13,7 +13,6 @@ $('document').ready(function(){
 
   $('#projects').click(function(e) {
     $('#projects-menu').toggleClass('open');
-    $('#projects').toggleClass('active');
     $('body').toggleClass('no-scroll');
     e.preventDefault()
   });
@@ -22,7 +21,6 @@ $('document').ready(function(){
     $('#projects-menu').removeClass('open');
     $('#pages').removeClass('open');
     $('body').removeClass('no-scroll');
-    $('#projects').removeClass('active');
     e.preventDefault()
   });
 });

@@ -8,15 +8,14 @@ html(lang='en')
     include _header.pug
     div.container.two-pane-layout
       div.pane.left-pane
-        div.text-title.bold Hi👋 My name is <br /> Ruby Cheung.
-        p.light As a product designer I love creating delightful experiences ✨ informed by data 📊.
-        p.light.
-          I currently work at #[a.light.clickable(href="https://smile.io", target='_blank') Smile.io],
-          and previously at #[a.light.clickable(href="https://flipp.com", target='_blank') Flipp].
-        p.large-top-padding.bold Have any questions or want to have a quick chat? 💬
+        div.text-title.bold Hi👋 <br /> My name is Ruby.
+        p.light.short I am product designer, passionate about solving problems through empathy, streamlining processes, and making data-driven decisions.
+        p.light.short.
+          Currently at #[a.light.clickable(href="https://smile.io", target='_blank') Smile.io],
+          previously at #[a.light.clickable(href="https://flipp.com", target='_blank') Flipp].
         div.button-container
-          a(href="contact.html")
-            .button.light.semibold Let's chat
+          a(href="mailto:rubykcheung@gmail.com")
+            .button.light.semibold Say hello!
           a(href="resume.html" style="margin-left: 20px;").light
             span.clickable(style='margin-right: 10px;') View my resume
             include includes/right_arrow.pug

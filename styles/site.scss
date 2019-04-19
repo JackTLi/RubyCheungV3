@@ -144,26 +144,30 @@ a {
   }
 }
 
+p {
+  line-height: 27px;
+
+  &.short {
+    line-height: 24px;
+  }
+
+  &.large-top-padding {
+    padding-top: 15px;
+  }
+}
+
 .clickable {
   color: $monkey-light-grey;
   fill: $monkey-light-grey;
 }
 
 .secret-buttonish {
-    padding: 7px 20px;
-    border-radius: 100px;
+  padding: 7px 20px;
+  border-radius: 100px;
 
-    &:hover {
-      background-color: rgba(14, 135, 186, 0.1);
-    }
-
-    &:active, &.active {
-      background-color: #CADFE8;
-    }
-}
-
-p.large-top-padding {
-  padding-top: 15px;
+  &:hover {
+    background-color: rgba(14, 135, 186, 0.1);
+  }
 }
 
 @import 'single_pane';
