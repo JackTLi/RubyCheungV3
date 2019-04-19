@@ -76,6 +76,19 @@ body {
   &:active {
     background-color: #CADFE8;
   }
+
+  &.green {
+    background-color: #CFEAEA;
+
+    &:hover {
+      background-color:#BFE1E1;
+      color: $monkey-grey;
+    }
+
+    &:active {
+      background-color: #A3CFCF;
+    }
+  }
 }
 
 .text-title {
@@ -133,13 +146,13 @@ a {
   color: $monkey-grey;
 
   &:hover {
-    .clickable {
+    .clickable, &.clickable {
       color: $monkey-grey;
       fill: $monkey-grey;
-    }
-    &.clickable {
-      color: $monkey-grey;
-      fill: $monkey-grey;
+
+      &.underline-hover {
+        border-bottom: 2px solid $monkey-grey;
+      }
     }
   }
 }
@@ -159,6 +172,10 @@ p {
 .clickable {
   color: $monkey-light-grey;
   fill: $monkey-light-grey;
+
+  &.underline-hover {
+    padding-bottom: 5px;
+  }
 }
 
 .secret-buttonish {

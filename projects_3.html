@@ -1,0 +1,35 @@
+<!DOCTYPE html><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width" initial-scale="1"><html lang="en"><head><title>Ruby Cheung - Streamlining communication between designers and developers</title><link rel="stylesheet" type="text/css" href="styles/site.css"><script type="text/javascript" src="js/jquery.min.js"></script><script type="text/javascript" src="js/analytics.js"></script><script type="text/javascript" src="js/projects.js"></script><script type="text/javascript" src="js/main.js"></script></head><body><div class="header-spacer"></div><div class="header" id="header"><div class="header-container"><a class="logo" href="index.html"><img src="assets/logo.svg"></a><div id="hamburger"><span></span><span></span><span></span></div><ul class="pages" id="pages"><li><a class="nav-link secret-buttonish" href="resume.html" id="resume">Resume</a></li><li><a class="nav-link secret-buttonish" href="#" id="projects">Projects</a></li></ul><div id="projects-menu"><div class="close-button-container"><a class="close-button secret-buttonish" href="#"><div class="close-text">Close</div><div class="close-x"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 12L17 7L12 12L17 17L12 12ZM12 12L7 17L12 12L7 7L12 12Z"></path><path d="M12 12L17 7L12 12ZM12 12L17 17L12 12ZM12 12L7 17L12 12ZM12 12L7 7L12 12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></a></div><div class="project-container"><a href="projects_3.html"><div class="project"><div class="image"><img src="assets/3_header.png"></div><div class="label"><h3 class="title">Streamlining communication between designers and developers</h3><div class="company caption">Smile.io</div></div></div></a><a href="projects_2.html"><div class="project"><div class="image"><img src="assets/2_header.png"></div><div class="label"><h3 class="title">Introducing a design system to Smile.io</h3><div class="company caption">Smile.io</div></div></div></a><a href="projects_1.html"><div class="project"><div class="image"><img src="assets/1_header.png"></div><div class="label"><h3 class="title">How Flipp ranked #1 on the App Store</h3><div class="company caption">Flipp</div></div></div></a></div></div></div></div><div class="container single-pane"><img class="banner" src="assets/3_header.png"><div class="title"><span class="text-title">Streamlining communication between designers and developers</span><div class="caption">Smile.io • January 2017 - Present</div></div><div class="body"><p>When I first started at Smile.io, the projects followed a waterfall workflow. The product manager would
+sync up with me to outline the solution. I would design what was discussed and send the
+designs to the developers to build. This workflow caused a lot of problems and impacted the efficiency of the projects.
+</p><h1>Low velocity and inconsistent quality due to a lack of communication</h1><h3>Projects would take longer than anticipated</h3><p>For many projects, developers had concerns about technical limitations and development effort. Since
+the developers were not involved in the process until after the design was completed, this resulted
+in needing to revisit the design, often multiple times. While this would result in a satisfactory design
+eventually, they were problems that we could have avoided by communicating earlier in the process. This
+back-and-forth became demanding on both designers and developers.
+</p><h3>What was built was not always the same as the design</h3><p>Even when there were no development concerns, inconsistencies with the design would appear on released.
+Some inconsistencies were fixed post-release, but many became a permanent part of the product.</p><p>During development, sometimes decisions will be made to cut details from the end product. A more collaborative
+process would have allowed us to find alternative ways forward. The development team tries to communicate when
+these decisions get made, but sometimes they are omitted due to time constraints or seemed minor at the time.
+</p><h1>The solution: Increase communication and collaboration throughout the whole process</h1><h3>Development research</h3><p>After syncing up with the product manager about the problem, I would vet the problem with developers before
+getting too deep into the solution to avoid unnecessary work. We would have a conversation about what is
+currently possible to build and what needs to be part of a larger project. This allows me to create
+well-informed designs, while the developers have a better sense of what they are required to build.
+</p><h3>Design reviews with developers</h3><p>There are two design reviews that I have with the developers before they start building.  The first review
+is to go through a high-level flow of the solution and confirms the solution is feasible, before getting
+too far into the design. Another review happens after I create a detailed version of the mocks, where I
+outline edge cases that can occur. These reviews are done to have a unified understanding before development
+starts and prevents a lot of back-and-forths.
+</p><h3>Design specs</h3><p>Before handing off designs for development, a design specification document is written to communicate all
+particularities of the design to reduce ambiguities while building. This documentation helps foster better
+communication between designers and developers. This resulted in the project process to become smoother.</p><p>By implementing these touch points during the process, this promoted a smoother process and fostered a
+better understanding of what was being built.
+</p></div><div class="next-project"><a class="small-heading" href="projects_2.html"><span class="clickable underline-hover" style="margin-right: 10px;">Introducing a design system to Smile.io</span><svg class="clickable" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6286 0.222272C10.199 -0.124872 9.56938 -0.0580713 9.22224 0.371475C8.87509 0.801021 8.94189 1.43065 9.37144 1.7778L12.1212 4.00003H1C0.447715 4.00003 0 4.44775 0 5.00003C0 5.55232 0.447715 6.00003 1 6.00003H12.2823L9.39327 8.20512C8.95426 8.54021 8.87 9.16774 9.20509 9.60676C9.54018 10.0458 10.1677 10.13 10.6067 9.79494L15.6976 5.90923C15.9416 5.72302 16.0866 5.43508 16.0908 5.1282C16.0951 4.82132 15.9582 4.52947 15.7195 4.33656L10.6286 0.222272Z"></path></svg></a></div></div></body></html><script>var pages = [
+  'resume',
+  'projects'
+];
+
+pages.forEach(function (page) {
+  if (location.pathname.includes(page)) {
+    $('#' + page).addClass('current')
+  }
+});</script>

@@ -1,0 +1,70 @@
+include _meta.pug
+html(lang='en')
+  head
+    title Ruby Cheung - Streamlining communication between designers and developers
+    include includes/includes.pug
+  body
+    include _header.pug
+    div.container.single-pane
+      img(src='assets/3_header.png').banner
+      div.title
+        span.text-title Streamlining communication between designers and developers
+        div.caption Smile.io • January 2017 - Present
+
+      div.body
+        p.
+          When I first started at Smile.io, the projects followed a waterfall workflow. The product manager would
+          sync up with me to outline the solution. I would design what was discussed and send the
+          designs to the developers to build. This workflow caused a lot of problems and impacted the efficiency of the projects.
+
+        h1 Low velocity and inconsistent quality due to a lack of communication
+
+        h3 Projects would take longer than anticipated
+        p.
+          For many projects, developers had concerns about technical limitations and development effort. Since
+          the developers were not involved in the process until after the design was completed, this resulted
+          in needing to revisit the design, often multiple times. While this would result in a satisfactory design
+          eventually, they were problems that we could have avoided by communicating earlier in the process. This
+          back-and-forth became demanding on both designers and developers.
+
+        h3 What was built was not always the same as the design
+        p.
+          Even when there were no development concerns, inconsistencies with the design would appear on released.
+          Some inconsistencies were fixed post-release, but many became a permanent part of the product.
+        p.
+          During development, sometimes decisions will be made to cut details from the end product. A more collaborative
+          process would have allowed us to find alternative ways forward. The development team tries to communicate when
+          these decisions get made, but sometimes they are omitted due to time constraints or seemed minor at the time.
+
+        h1 The solution: Increase communication and collaboration throughout the whole process
+
+        h3 Development research
+        p.
+          After syncing up with the product manager about the problem, I would vet the problem with developers before
+          getting too deep into the solution to avoid unnecessary work. We would have a conversation about what is
+          currently possible to build and what needs to be part of a larger project. This allows me to create
+          well-informed designs, while the developers have a better sense of what they are required to build.
+
+        h3 Design reviews with developers
+        p.
+          There are two design reviews that I have with the developers before they start building.  The first review
+          is to go through a high-level flow of the solution and confirms the solution is feasible, before getting
+          too far into the design. Another review happens after I create a detailed version of the mocks, where I
+          outline edge cases that can occur. These reviews are done to have a unified understanding before development
+          starts and prevents a lot of back-and-forths.
+
+        h3 Design specs
+        p.
+          Before handing off designs for development, a design specification document is written to communicate all
+          particularities of the design to reduce ambiguities while building. This documentation helps foster better
+          communication between designers and developers. This resulted in the project process to become smoother.
+        p.
+          By implementing these touch points during the process, this promoted a smoother process and fostered a
+          better understanding of what was being built.
+
+      div.next-project
+        a(href="projects_2.html").small-heading
+          span.clickable.underline-hover(style='margin-right: 10px;') Introducing a design system to Smile.io
+          include includes/right_arrow.pug
+
+include _footer.pug
