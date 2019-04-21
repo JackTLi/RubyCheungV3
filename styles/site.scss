@@ -108,8 +108,7 @@ h2 {
 
 h3 {
   font-size: 16px;
-  line-height: 27px;
-
+  line-height: 20px;
 }
 
 .body-large {
@@ -175,6 +174,14 @@ p {
 
   &.underline-hover {
     padding-bottom: 5px;
+  }
+}
+
+.in-text-link {
+  color: #2681a8 !important;
+  &:hover {
+    font-weight: $semibold;
+    text-decoration: underline;
   }
 }
 

@@ -17,10 +17,22 @@ $('document').ready(function(){
     e.preventDefault()
   });
 
-  $('.close-button').click(function(e) {
+  function closeProjectsMenu() {
     $('#projects-menu').removeClass('open');
     $('#pages').removeClass('open');
     $('body').removeClass('no-scroll');
+  }
+
+  $('.close-button').click(function(e) {
     e.preventDefault()
+  });
+
+  $(document).click(function(event) {
+    $target = $(event.target);
+    if(!$target.closest('#projects-menu').length
+      && !$target.closest('#projects').length
+      && $('#projects-menu').hasClass('open')) {
+      closeProjectsMenu();
+    }
   });
 });
