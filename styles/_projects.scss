@@ -5,6 +5,7 @@ $projects-menu-width: 400px;
 }
 #projects-menu {
   position: fixed;
+  z-index: 2;
   top: 88px;
   right: -100%;
   width: $projects-menu-width;

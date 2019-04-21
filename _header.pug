@@ -1,16 +1,17 @@
 div.header-spacer
 div.header#header
-  div.header-container
-    a(href='index.html').logo
-      img(src='assets/mainlogo.svg')
-    div#hamburger
-      span
-      span
-      span
-    ul.pages#pages
-      li
-        a(href='resume.html').nav-link.secret-buttonish#resume Resume
-      li
-        a(href='#').nav-link.secret-buttonish#projects Projects
+  include _projects.pug
+  div.header-background
+    div.header-container
+      a(href='index.html').logo
+        img(src='assets/mainlogo.svg')
+      div#hamburger
+        span
+        span
+        span
+      ul.pages#pages
+        li
+          a(href='resume.html').nav-link.secret-buttonish#resume Resume
+        li
+          a(href='#').nav-link.secret-buttonish#projects Projects
 
-    include _projects.pug
