@@ -36,6 +36,14 @@ $resume-section-margin: 10px;
     margin: 20px 0;
   }
 
+  .right-section {
+    .box {
+      padding-top: 0;
+      margin-top: -20px;
+      margin-bottom: 70px;
+    }
+  }
+
   .company {
     background-color: white;
     box-shadow: 0 7px 24px rgba(0,0,0,0.04);

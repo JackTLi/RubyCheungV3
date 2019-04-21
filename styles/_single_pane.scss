@@ -36,7 +36,8 @@
       }
 
       &.regular-margined {
-        margin: inherit;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
       }
     }
   }
