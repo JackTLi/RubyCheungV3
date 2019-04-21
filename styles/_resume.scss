@@ -1,4 +1,16 @@
 $resume-section-margin: 10px;
+
+div.container.single-pane.resume {
+  margin: 0px 240px;
+
+  @media screen and (max-width: $default-max-width) {
+    margin: 0px 160px;
+  }
+  @media screen and (max-width: $break-mobile) {
+    margin: 0px 25px;
+  }
+}
+
 .resume-container {
   .section {
     display: inline-block;
